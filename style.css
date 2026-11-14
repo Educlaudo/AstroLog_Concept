@@ -42,6 +42,11 @@ body {
   width: auto;
 }
 
+.Logo:hover {
+  font-weight: bold;
+  opacity: 0.95;
+}
+
 .Planets {
   position: absolute;/* Testar different positions depois*/
   width: 170px;
@@ -327,4 +332,18 @@ footer {
   font-family: 'Averia Serif Libre',serif;
   font-size: 18px;
   color: #134dd5;
+}
+
+#directRSC {
+  color: #ff9900;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+#directRSC:hover {
+  color:#134dd5;
+  text-decoration: underline;
 }
