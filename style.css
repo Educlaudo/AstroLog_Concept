@@ -457,4 +457,45 @@ footer {
     font-size: 26px;
   }
 
+  .formulario {
+    padding: 20px 15px;
+    border-radius: 15px;
+    max-width:  100%;
+    box-sizing: border-box;
+  }
+
+  .boxGroup {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .box input, .box textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .formFooter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .PS {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .send, .box button {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
 }
