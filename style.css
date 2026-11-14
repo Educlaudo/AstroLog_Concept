@@ -362,8 +362,40 @@ footer {
   .HDR {
     flex-direction: column;
     height: auto;
-    padding: 20px;
+    padding: 20px 5%;
     gap: 15px;
+    min-height: 100px;
+    overflow: hidden;
+  }
+
+  .HDR nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .Planets {
+    position: static;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    font-size: 0.85rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .PlanetDown, .PlanetUp1, .PlanetUp2 {
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    padding: 0;
   }
 
   .Logo {
@@ -377,21 +409,28 @@ footer {
   }
 
   .mainImages {
+    position: relative;
     width: 100%;
-    height: 300px;
+    height: auto;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
   }
 
   .mainText {
     width: 100%;
   }
 
-  .png {
-    width: 150px;
+  .png, .OrangePlanet, .BlueRocket, .AsterismoCrux {
     position: relative;
+    width: 150px;
     top: auto;
     left: auto;
-    margin: auto;
+    margin: 0 auto;
     display: block;
+    height: auto;
   }
 
   .twoColumns {
@@ -408,4 +447,14 @@ footer {
     border: 20px;
     border-radius: 25px;
   }
+
+  .mainText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mainText h1 {
+    font-size: 26px;
+  }
+
 }
