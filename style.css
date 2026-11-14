@@ -93,19 +93,23 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 20px;
+  padding: 40px 5%;
   gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .mainImages {
   position: relative;
   width: 50%;
   height: 500px;
+  flex-shrink: 0;
 }
 
 .png {
   position: absolute;
   height: auto;
+  max-width: 45%;
 }
 
 .OrangePlanet {
@@ -127,13 +131,14 @@ body {
 }
 
 .mainText {
-  width: 45%;
+  width: 48%;
   text-align: center;
 }
 
 .mainText h1 {
   font-family: "Inter", "Georgia", serif;
   font-size: 36px;
+  line-height: 1.3;
   color:#134dd5;
 }
 
@@ -425,12 +430,13 @@ footer {
 
   .png, .OrangePlanet, .BlueRocket, .AsterismoCrux {
     position: relative;
-    width: 150px;
+    width: 100%;
     top: auto;
     left: auto;
     margin: 0 auto;
     display: block;
     height: auto;
+    max-width: 140px;
   }
 
   .twoColumns {
@@ -498,4 +504,5 @@ footer {
     padding-right: 20px;
     text-align: center;
   }
+  
 }
